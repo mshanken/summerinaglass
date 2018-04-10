@@ -1,0 +1,45 @@
+# http://humanstxt.org/
+/* TEAM */
+
+                            
+Your title: Let Your Palate Be Your Guide.
+
+                            
+Site: summerinaglass.winespectator.com.
+
+                            
+/* Twitter: your Twitter username. */
+
+                            
+Location: NY, USA.
+
+                         
+                 
+                        [...]
+						
+
+							
+/* THANKS */
+
+							
+Name: http://summerinaglass.winespectator.com/
+
+						
+                 
+                        [...]
+                        
+
+                            
+/* SITE */
+
+                            
+Last update: 2018/04/15 
+
+                            
+Standards: HTML5, CSS3,..
+
+                            
+Components: Modernizr, jQuery, etc.
+
+                            
+Software: Software used for the development
