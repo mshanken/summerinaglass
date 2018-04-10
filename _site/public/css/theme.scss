@@ -20,13 +20,20 @@ h1{ font-weight: 100; margin-top: 40px; }
 h2{ margin-bottom: 20px; color: #cbdbb3; }
 h2, h5, h6{ background-color: #231f20; padding: 7px; }
 p{ padding: 0 5px; }
-h5, h6{ color: #ffffff; }
-h6 a, h6 a:hover{ color: #7e975d; }
-a.card { color: #000000; text-decoration: none; }
-h6{ font-family: $font-family-sans-serif; margin-top: 30px;}
+h6 a, h6 a:hover, h5, h6{ color: #ffffff; }
+h6 a span, h6 a:hover span{ color: #7e975d; }
+h6 a:hover span { text-decoration: underline; }
+a.card { color: #000000; }
+h6 a:hover, a.card:hover{ text-decoration: none; }
+h6{ font-family: $font-family-sans-serif; margin-top: 30px; }
 .card h6{ margin-top: 0;}
 @include media-breakpoint-down(lg) {
 	.card{ margin-bottom: 30px; }
+}
+@include media-breakpoint-down(md) {
+	h1{ margin-top: 20px; }
+	h2{ font-size: 1.5em; }
+	h6, .card{ margin-bottom: 20px; }
 }
 @include media-breakpoint-up(xl) {
 	h1{ font-size: 4.5em; }
