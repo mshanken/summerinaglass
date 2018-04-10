@@ -15,3 +15,19 @@
 //
 // Custom style starts here
 // --------------------------------------------------
+h1, h2, h3, h4, h5, h6 { font-family: $font-family-serif; color: #7e975d; }
+h1{ font-weight: 100; margin-top: 40px; }
+h2{ margin-bottom: 20px; color: #cbdbb3; }
+h2, h5, h6{ background-color: #231f20; padding: 7px; }
+p{ padding: 0 5px; }
+h5, h6{ color: #ffffff; }
+h6 a, h6 a:hover{ color: #7e975d; }
+a.card { color: #000000; text-decoration: none; }
+h6{ font-family: $font-family-sans-serif; margin-top: 30px;}
+.card h6{ margin-top: 0;}
+@include media-breakpoint-down(lg) {
+	.card{ margin-bottom: 30px; }
+}
+@include media-breakpoint-up(xl) {
+	h1{ font-size: 4.5em; }
+}
